@@ -1,0 +1,74 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: pink;
+}
+
+@media(max-width:30em) {
+    body {
+        background-color: rgb(209, 209, 243);
+    }
+}
+
+img {
+    transform: scale(0.5) translate(100%, -50%) rotate(0.3turn)
+}
+
+h1 {
+    color: red;
+}
+
+#causss:hover {
+    color: yellowgreen;
+}
+
+body h1+p .especial {
+    color           : yellow;
+    background-color: black;
+    padding         : 5px;
+}
+
+p {
+    color: green;
+}
+
+li {
+    list-style-type: square;
+}
+
+li.especial,
+span.especial {
+    color      : orange;
+    font-weight: bold;
+}
+
+li em {
+    color      : rebeccapurple;
+    font-weight: bold;
+}
+
+h1+p {
+    font-size: 200%;
+}
+
+p span {
+    color: red;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p:first-child {
+    background-color: royalblue;
+}
